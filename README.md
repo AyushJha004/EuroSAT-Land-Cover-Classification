@@ -2,6 +2,11 @@
 
 > Internship Project — International Institute of Information Technology, Bangalore (IIIT-B)
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
+![Dataset](https://img.shields.io/badge/Dataset-EuroSAT-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 A custom lightweight residual convolutional neural network built from scratch in PyTorch for satellite image classification on the EuroSAT dataset. Achieves **91.23% accuracy** with only **2.25M parameters** — outperforming pretrained ResNet18 while using ~60x fewer parameters than pretrained VGG16.
 
 ---
@@ -106,11 +111,12 @@ Each ResidualBlock contains: `Conv → BN → ReLU → Conv → BN → ReLU → 
 EuroSAT-Land-Cover-Classification/
 ├── README.md
 ├── requirements.txt
-├── notebook.ipynb
+├── EuroSAT_ResNet39.ipynb
 └── results/
     ├── accuracy_curve.png
     ├── loss_curve.png
     ├── confusion_matrix.png
+    ├── classification_report.png
     ├── precision.png
     ├── recall.png
     └── f1_score.png
@@ -126,7 +132,7 @@ cd EuroSAT-Land-Cover-Classification
 pip install -r requirements.txt
 ```
 
-Open `notebook.ipynb` in Jupyter or upload directly to Kaggle/Colab to run.
+Open `EuroSAT_ResNet39.ipynb` in Jupyter or upload directly to Kaggle/Colab to run.
 
 > Download the EuroSAT dataset from [Kaggle](https://www.kaggle.com/datasets/apollo2506/eurosat-dataset) and update the dataset path in the notebook.
 
