@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (do not upload)
+data/
+*.zip
+*.tar.gz
+
+# Model weights (large files)
+*.pth
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
