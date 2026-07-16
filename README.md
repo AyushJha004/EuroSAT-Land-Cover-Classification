@@ -1,5 +1,7 @@
 # Enhanced ResNet39: Lightweight Residual CNN for EuroSAT Land Cover Classification
 
+> Internship Project — International Institute of Information Technology, Bangalore (IIIT-B)
+
 A custom lightweight residual convolutional neural network built from scratch in PyTorch for satellite image classification on the EuroSAT dataset. Achieves **91.23% accuracy** with only **2.25M parameters** — outperforming pretrained ResNet18 while using ~60x fewer parameters than pretrained VGG16.
 
 ---
@@ -29,6 +31,9 @@ A custom lightweight residual convolutional neural network built from scratch in
 ![Precision](results/precision.png)
 ![Recall](results/recall.png)
 ![F1 Score](results/f1_score.png)
+
+### Classification Report
+![Classification Report](results/classification_report.png)
 
 ---
 
